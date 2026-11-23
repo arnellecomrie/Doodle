@@ -1,0 +1,10 @@
+html, body {
+  background-color: #186907;
+  font-size: 30pt;
+  font-color: #F9C846;
+  text-align: center;
+}
+canvas {
+  display: block;
+  canvas-align: center
+}

@@ -52,5 +52,8 @@ function draw() {
   if (mouseIsPressed) {
     strokeWeight(10);
     line(mouseX, mouseY, pmouseX, pmouseY);
+let r = map(mouseX, 0, width, 0, 255);
+let g = map(mouseY, 0, height, 0, 255);
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, 150)`;
   }
 }

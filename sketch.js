@@ -16,7 +16,7 @@ let doodleClassifier;
 let resultsDiv;
 
 function setup() {
-  canvas = createCanvas(1000, 600);
+  canvas = createCanvas(1100, 600);
   clearButton = createButton('Abandon Ship!');
   clearButton.mousePressed(clearCanvas);
   background(400);
